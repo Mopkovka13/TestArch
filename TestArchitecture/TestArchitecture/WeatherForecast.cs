@@ -1,4 +1,4 @@
-namespace TestArchitecture
+namespace TestArchitecture.API
 {
     public class WeatherForecast
     {
