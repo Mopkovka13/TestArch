@@ -1,5 +1,0 @@
-﻿
-
-using ConsoleApp1;
-
-
