@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestArchitecture.Core
+namespace TestArchitecture.Core.Repository
 {
-    public interface IUsersRepository
+    public interface IMembersRepository
     {
-        void Create(User user);
-        User[] Get();
+        Task<int> Add(Member newMember);
     }
 }

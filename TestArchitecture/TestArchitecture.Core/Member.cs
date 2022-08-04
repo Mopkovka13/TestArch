@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestArchitecture.DA
+namespace TestArchitecture.Core
 {
-    public class User
+    public class Member
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; set; }
+        public string YouTubeUserId { get; set; }
     }
 }
